@@ -1,0 +1,80 @@
+<! Doctype html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+		<title>BSG - Play and Enjoy</title>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0 , shrink-to-fit=no">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="background">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid pt-2">
+                <a href="index.html" class="navbar-brand"><span class="logo">B</span><span class="logo">S</span><span class="logo">G</span></a>
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#menu" 
+                arials-control="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    MENU
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-user pr-2"></i>Profile</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-gear pr-2"></i>Settings</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-trophy pr-2"></i>Highest Score</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-sign-out pr-2"></i>Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main role="main">
+            <div class="container game-area">
+                <h4 class="text-center pb-5">Welcome to BSG, User!</h4>
+                <div class="row">
+                    <div class="col-3 rate">
+                        <p>
+                            <h5>Level</h5>
+                            <div class="box">4</div>
+                        </p>
+                        <p>
+                            <h5>Score</h5>
+                            <div class="box">3</div>
+                        </p>
+                        <p>
+                            <h5>Time</h5>
+                            <div class="box">03:00</div>
+                        </p>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" class="form-input" placeholder="Enter a number"><button class="btn-custom">Fire</button>
+                        <div class="sound ml-4 mt">
+                            <i class="fa fa-play-circle play"></i>
+                            <audio class="audio" controls>
+                                <source src="rora.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <p class="ml-4">Sound it!</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid social-media text-center">
+                <ul class="socials">
+                    <li class="social-list"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-list"><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li class="social-list"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="social-list"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+                <h5 class="contact">Contact us</h5>
+            </div>
+        </footer>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

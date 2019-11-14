@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "neuropol";
+    src: url("neuropol.ttf") format("truetype");
+}
+body {
+    font-family: 'neuropol';
+    color: #ffff00;
+    font-size: 1rem;
+    background: url(bokeh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+.navbar-brand {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.navbar-brand:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+.logo {
+    border: 1px solid #ffff00;
+    background-color: #ffff00;
+    margin-right: 5px;
+    padding: 4px 6px 4px 6px;
+}
+.navbar-toggler {
+    color: #ffff00;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.navbar-toggler:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.navbar-nav {
+    margin-top: 1rem;
+   float: right;
+}
+.nav-link {
+    color: #ffff00;
+}
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+.game-area {
+    padding-top: 10rem;
+}
+.btn-custom {
+    color: #ff0000;
+    font-weight: bolder;
+    background-color: #ffff00;
+    height: calc(2.25rem + 2px);
+    border: 1px solid #ffff00;
+}
+.form-input {
+    width: 60%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.rate h5 {
+    font-weight: 800;
+}
+.box {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    color: #000000;
+    font-weight: bolder;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.sound{
+    position: relative;
+}
+.audio {
+    position: absolute;
+    top: 28px;
+    left: 10px;
+    opacity: 0;
+}
+.play {
+    font-size: 100px;
+}
+.mt {
+    margin-top: 7rem;
+}
+.socials {
+    list-style-type: none;
+}
+.socials .social-list {
+    display: inline;
+    margin-right: 2rem;
+}
+.socials .social-list a {
+    font-size: 1.5rem;
+    border: 1px solid #ffff00;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    background-color: #ffff00;
+    color: #000000;
+}
+.socials .social-list a:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.contact {
+    font-weight: 800;
+}
